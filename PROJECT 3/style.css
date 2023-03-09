@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* navbar section  */
+/* navbar section  */
+/* navbar section  */
+
+/* navbar create display grid */
+.navbar {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 158px 5px 1fr 1fr;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 95px;
+  padding: 31px 83px;
+  gap: 10px;
+}
+/* navbar create display flex */
+/* .navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+  } 
+*/
+
+.grow-list {
+  flex-grow: 1;
+}
+.line {
+  width: 1px;
+  height: 90px;
+  background-color: #fff;
+}
+.logo,
+.list-item {
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 55px;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+.list > li > a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+}
+.button-small {
+  padding: 7px 28px;
+  background: #ba0cc5;
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+.token-btn {
+  justify-self: flex-end;
+}
+/* main section start  */
+/* main section start  */
+/* main section start  */
+
+.main-container-section {
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 91.5vh;
+  text-align: center;
+}
+.main-heading-section {
+  max-width: 846px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 172px;
+}
+.main-description-section {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-style: none;
+  line-height: 45px;
+  color: #ffffff;
+}
+.main-button-section {
+  background-color: #ba0cc5;
+  font-weight: 600;
+  font-size: 29.9487px;
+  color: whitesmoke;
+  margin-top: 70px;
+  padding: 10px 20px;
+  line-height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-style: none;
+  font-family: "Poppins";
+}
